@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Build output (electron-builder)
+dist/
+
+# Debug files generated during development
+wa-dom.txt
+wa-shot.png
+
+# OS / editor
+Thumbs.db
+.DS_Store
+*.log

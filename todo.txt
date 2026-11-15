@@ -1,0 +1,1 @@
+add arrow to close chat list in browser, now it closes it when you open a chat. let the user choose when open it or not

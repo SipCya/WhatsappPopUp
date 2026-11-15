@@ -1,0 +1,34 @@
+{
+  "name": "whatsapp-mini",
+  "productName": "WhatsApp Mini",
+  "version": "1.0.0",
+  "description": "Always-on-top popup window for WhatsApp Web, with the chat list hidden so you can keep a single conversation visible while taking less screen space.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:assets": "electron tools/build-assets.js",
+    "dist": "electron-builder --win portable"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-web",
+    "electron",
+    "always-on-top",
+    "popup",
+    "mini"
+  ],
+  "author": "dado",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+    "appId": "com.dado.whatsappmini",
+    "productName": "WhatsApp Mini",
+    "win": {
+      "target": "portable",
+      "icon": "build/icon.ico"
+    }
+  }
+}
